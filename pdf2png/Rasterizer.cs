@@ -12,7 +12,7 @@ namespace pdf2png
         private readonly GhostscriptVersionInfo _lastInstalledVersion;
         private readonly GhostscriptRasterizer _rasterizer;
 
-        public Rasterizer(int xDpi = 96, int yDpi = 96)
+        public Rasterizer(int xDpi, int yDpi)
         {
             _desiredXDpi = xDpi;
             _desiredYDpi = yDpi;

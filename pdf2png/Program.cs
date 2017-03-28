@@ -24,7 +24,7 @@ namespace pdf2png
             if (!outputDirectory.Exists)
                 outputDirectory.Create();
 
-            PDF2PNG.Convert(inputFile, outputDirectory);
+            PDF2PNG.Convert(inputFile, outputDirectory, options.Dpi);
         }
     }
 }
