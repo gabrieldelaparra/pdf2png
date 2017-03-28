@@ -16,3 +16,6 @@ pdf2png -i \<input pdf file\> -o \<output directory\> [-p dpi]
 -o, --output      Required. Output directory for output files.
 
 -p, --pixelDpi    (Default: 300) Output PNG image dpis
+
+## Missing
+No tests available :(
